@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Mouse Gaming Mode</title>
+<meta name="description" content="Help with Mouse Gaming Mode: permissions, zero-latency mode, Shift + scroll and Control-click.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="./"><img src="icon.png" alt="" width="32" height="32">Mouse Gaming Mode</a>
+    <div class="links"><a href="./">Home</a><a href="privacy.html">Privacy</a></div>
+  </nav>
+  <main class="prose">
+    <h1>Support</h1>
+    <p>Something not working, or an idea for the app? <a href="https://github.com/joshuafinley/mouse-gaming-mode/issues/new">Open an issue on GitHub</a> and say which Mac, macOS version and mouse you use. Answers to the common questions are below.</p>
+
+    <h2>Nothing happens when I scroll</h2>
+    <ul>
+      <li>Open System Settings › Privacy &amp; Security › <strong>Accessibility</strong> and make sure Mouse Gaming Mode is switched on. The menu shows <em>Allow in Accessibility…</em> while it's missing.</li>
+      <li>Check <strong>Enabled</strong> is ticked in the menu.</li>
+      <li>Quit any other scroll-reversing app: two of them undo each other.</li>
+    </ul>
+
+    <h2>What is zero-latency mode?</h2>
+    <p>With Input Monitoring allowed, the app's scroll hook stays switched off until a fix is needed: while you hold Shift, or while your fingers are on the trackpad. The rest of the time your inputs reach your games directly.</p>
+    <p>If your mouse wheel needs reversing because macOS's Natural Scrolling is on, every wheel scroll has to pass through the app, which adds about a tenth of a millisecond. Choose <em>Make the Mouse Zero-Latency…</em> in the menu: turning Natural Scrolling off in System Settings › Trackpad lets macOS scroll your mouse like a PC on its own, and the app keeps your trackpad natural instead.</p>
+
+    <h2>Shift + scroll doesn't scroll sideways any more</h2>
+    <p>That's <em>Keep Shift + Wheel Vertical</em> working in every app. Switch it off in the menu when you want sideways scrolling back. Tilt wheels and thumb wheels keep scrolling sideways either way.</p>
+
+    <h2>Control-click doesn't open menus any more</h2>
+    <p>That's <em>Keep Control-Click a Left Click</em>. Switch it off in the menu, or right-click instead.</p>
+
+    <h2>My Magic Mouse follows the trackpad setting</h2>
+    <p>A Magic Mouse scrolls smoothly like a trackpad, and the App Store edition can't tell the two apart. Set the Trackpad direction to the one you want for both.</p>
+
+    <h2>Starting with your Mac</h2>
+    <p>Tick <em>Open at Login</em> in the menu. It also appears in System Settings › General › Login Items.</p>
+  </main>
+</div>
+<footer>
+  <div class="wrap">
+    <span>Mouse Gaming Mode · © 2026 joshuafinley</span>
+    <span><a href="privacy.html">Privacy</a> · <a href="./">Home</a></span>
+  </div>
+</footer>
+</body>
+</html>
